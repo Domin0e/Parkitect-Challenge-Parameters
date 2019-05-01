@@ -20,3 +20,8 @@ You can add entries to any of those lists by opening them with your Text Editor 
 
 # How to Use the Parameters the applet gives me?
 Open Parkitect and open a Park of your choice, or create a new Scenario, which is basically required as soon as Weather, Temperature or Guests are modified, and adjust things accordingly. Personally, I use a 50x53 custom scenario as a template. You can find it in the Steam Workshop: https://steamcommunity.com/workshop/filedetails/?id=1728948758
+
+# EXAMPLE SCREENSHOTS
+[Empty UI](doc/empty.PNG)
+
+[Example Rolls](doc/example.PNG)
