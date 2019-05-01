@@ -1,0 +1,9 @@
+Coaster Restriction: Small Coasters
+Ride Requirement:
+Centerpiece Requirement:
+Climate: Hot
+Climate: Cold
+Weather: Sunny
+Weather: Rainy
+Build Requirement:
+Guest Modifier:

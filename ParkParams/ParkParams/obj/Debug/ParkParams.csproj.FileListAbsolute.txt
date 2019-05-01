@@ -1,0 +1,20 @@
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\ParkParams.exe.config
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\ParkParams.exe
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\ParkParams.pdb
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\MainWindow.baml
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\MainWindow.g.cs
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\App.g.cs
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams_MarkupCompile.cache
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams.g.resources
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams.Properties.Resources.resources
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams.csproj.GenerateResource.Cache
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams.exe
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams.pdb
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams.csprojResolveAssemblyReference.cache
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\obj\Debug\ParkParams_Content.g.cs
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\Lists\Build Requirements.txt
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\Lists\Centerpiece.txt
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\Lists\Guest Modificators.txt
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\Lists\Modifiers.txt
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\Lists\Rides.txt
+I:\Projekte\Parkitect 2500 Tile Park Chooser\ParkParams\ParkParams\bin\Debug\Lists\Themes.txt
