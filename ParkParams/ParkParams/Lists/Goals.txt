@@ -1,0 +1,14 @@
+﻿Cleanliness rating:
+Coaster count:
+Decoration rating:
+Experiences rating:
+Guest count:
+Happiness rating:
+Money:
+No loan debts
+Operating profit:
+Overall park rating:
+Park tickets:
+Price satisfaction rating:
+Ride profit:
+Shop profit:

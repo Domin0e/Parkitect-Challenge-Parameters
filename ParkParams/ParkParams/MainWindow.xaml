@@ -1,7 +1,7 @@
 ﻿<Window x:Class="ParkParams.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Parkitect Park Parameter Chooser" Height="300" Width="420">
+        Title="Parkitect Park Parameter Chooser" Height="530" Width="900">
     <Grid>
         <Label Content="Theme" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="118" Name="labelTheme"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="25,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxTheme"/>
@@ -9,11 +9,36 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="25,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxModOne"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="25,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxModTwo"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="25,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxModThree"/>
-        <Button Content="Reroll All" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="10,215,0,0" Height="30" Name="buttonRollAll" Click="buttonRollAll_Click"/>
-        <Button Content="Reroll Modifiers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="105,215,0,0" Height="30" Name="buttonRollMods" Click="buttonRollMods_Click"/>
+        <Button Content="Reroll All" HorizontalAlignment="Left" Width="90" Margin="490,417,0,0" Name="buttonRollAll" Click="buttonRollAll_Click" Height="30" VerticalAlignment="Top"/>
+        <Button Content="Reroll Modifiers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="10,261,0,0" Height="30" Name="buttonRollMods" Click="buttonRollMods_Click"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,38,0,0" Height="23" x:Name="buttonRollTheme" Click="buttonRollTheme_Click"/>
         <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,111,0,0" Height="23" Name="buttonRollModOne" Click="buttonRollModOne_Click"/>
         <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,139,0,0" Height="23" Name="buttonRollModTwo" Click="buttonRollModTwo_Click"/>
         <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,167,0,0" Height="23" Name="buttonRollModThree" Click="buttonRollModThree_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxModFour"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,195,0,0" Height="23" Name="buttonRollModFour" Click="buttonRollModFour_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxModFive"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,223,0,0" Height="23" Name="buttonRollModFive" Click="buttonRollModFive_Click"/>
+        <Label Content="Goals" HorizontalAlignment="Left" Margin="10,302,0,0" VerticalAlignment="Top" x:Name="labelMod_Copy"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,333,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxGoalOne"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,361,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxGoalTwo"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,389,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxGoalThree"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,333,0,0" Height="23" Name="buttonRollGoalOne" Click="buttonRollGoalOne_Click"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,361,0,0" Height="23" Name="buttonRollGoalTwo" Click="buttonRollGoalTwo_Click"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,389,0,0" Height="23" Name="buttonRollGoalThree" Click="buttonRollGoalThree_Click"/>
+        <Button Content="Reroll Goals" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="10,445,0,0" Height="30" Name="buttonRollGoals" Click="buttonRollGoals_Click"/>
+        <Label Content="Scenario Options" HorizontalAlignment="Left" Height="28" Margin="490,10,0,0" VerticalAlignment="Top" Width="118" x:Name="labelTheme_Copy"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="505,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" Name="textboxMoney"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="810,38,0,0" Height="23" x:Name="buttonRollMoney" Click="buttonRollMoney_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="505,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" x:Name="textboxLoans"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="810,66,0,0" Height="23" x:Name="buttonRollLoans" Click="buttonRollLoans_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="505,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" x:Name="textboxFees"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="810,94,0,0" Height="23" x:Name="buttonRollFees" Click="buttonRollFees_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="505,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" x:Name="textboxMapsize"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="810,122,0,0" Height="23" x:Name="buttonRollMapsize" Click="buttonRollMapsize_Click"/>
+        <Button Content="Reroll Options" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="490,160,0,0" Height="30" x:Name="buttonRollOptions" Click="buttonRollOptions_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,417,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" x:Name="textboxGoaltime"/>
+        <Button Content="Reroll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="330,417,0,0" Height="23" x:Name="buttonRollGoaltime" Click="buttonRollGoaltime_Click"/>
 
     </Grid>
 </Window>

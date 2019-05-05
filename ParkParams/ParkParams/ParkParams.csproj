@@ -101,6 +101,9 @@
     <Content Include="Lists\Centerpiece.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Lists\Goals.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lists\Guest Modificators.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

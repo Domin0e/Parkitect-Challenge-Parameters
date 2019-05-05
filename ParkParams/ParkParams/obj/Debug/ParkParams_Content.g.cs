@@ -10,6 +10,7 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lists/build%20requirements.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lists/centerpiece.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lists/goals.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lists/guest%20modificators.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lists/modifiers.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("lists/rides.txt")]
